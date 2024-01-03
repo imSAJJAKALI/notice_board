@@ -1,0 +1,105 @@
+.app {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .new-note-input {
+    margin-left: 10px;
+  }
+  
+  .board {
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    background-color: #f8f8f8;
+    overflow: auto;
+  }
+  
+  .note {
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    padding: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    background-color: teal;
+    height: 120px;
+    width: 120px;
+    overflow:hidden;
+  }
+  
+  .note.pinned {
+    cursor: not-allowed;
+    background-color: yellowgreen;
+  }
+  
+  .note input {
+   
+  }
+  
+  .note-text {
+    margin-bottom: -15px;
+  }
+  
+  button {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  /* NoticeBoard.css */
+
+.note {
+    position: absolute;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .note.pinned {
+    cursor: not-allowed;
+  }
+  
+  .note:hover {
+    transform: scale(1.05);
+  }
+  
+  .note input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .note-text {
+    margin-bottom: 5px;
+  }
+  
+  .note button {
+    margin-right: 5px;
+    background-color: #ff7675;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .note button:hover {
+    background-color: #d63031;
+  }
+  
+  .note-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+  }
+  
+  .note-actions button {
+    margin-right: 5px;
+  }
+  
+  /* Add any other styling you need */
+  
+  
